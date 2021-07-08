@@ -1,6 +1,6 @@
 @import "_var";
 
-@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans&display=swap');
 
 *{
 box-sizing: border-box;
@@ -14,19 +14,19 @@ body{
     a {
         text-decoration: none;
     }
- 
+
 }
 
 
 
 button,h1,h2,h3,h4{
-    font-family:$josefin; 
+    font-family:$josefin;
 }
 button{
     font-size:16.5px;
 }
 .herosection{
-    background: url("../the-restaurant-mall-assets/HOME-HEADER.JPG");
+    background: url(./the-restaurant-mall-assets/home-header.jpg);
     background-size:cover;
     background-position: center;
     color:#fff;
@@ -563,13 +563,13 @@ flex-direction:column;
 
 .spacer-box{
     padding:250px;
-    background: url("../the-restaurant-mall-assets/banner.jpg");
+    background: url(./the-restaurant-mall-assets/banner.jpg);
     background-size: cover;
 }
 
 footer{
     background-color: #0F0F0F;
-    padding:20px;
+    padding:20px; 
     color:white;
     text-align:center;
 }
@@ -582,7 +582,7 @@ footer{
 
 
 .contactsection{
-    background: url("../the-restaurant-mall-assets/contact-header.jpg");
+    background: url(./the-restaurant-mall-assets/contact-header.jpg);
     background-size:cover;
     background-position: center;
     color:#fff;
@@ -797,7 +797,7 @@ h1.titlec{
 
 
 .blogsection{
-    background: url("../the-restaurant-mall-assets/blog-header.jpg");
+    background: url(./the-restaurant-mall-assets/blog-header.jpg);
     background-size:cover;
     background-position: 40% -10%;
     color:#fff;
@@ -1154,7 +1154,6 @@ input{
 }
 }
 }
-
 
 
 
