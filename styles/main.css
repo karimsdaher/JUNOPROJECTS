@@ -22,7 +22,7 @@ button {
 }
 
 .herosection {
-  background: url(./the-restaurant-mall-assets/home-header.jpg);
+  background: url(../the-restaurant-mall-assets/home-header.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -473,7 +473,7 @@ button.explore-space {
 }
 .spacer-box {
   padding: 250px;
-  background: url(./the-restaurant-mall-assets/banner.jpg);
+  background: url(../the-restaurant-mall-assets/banner.jpg);
   background-size: cover;
 }
 
@@ -485,7 +485,7 @@ footer {
 }
 
 .contactsection {
-  background: url(./the-restaurant-mall-assets/contact-header.jpg);
+  background: url(../the-restaurant-mall-assets/contact-header.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -719,7 +719,7 @@ h1.titlec {
   }
 }
 .blogsection {
-  background: url(./the-restaurant-mall-assets/blog-header.jpg);
+  background: url(../the-restaurant-mall-assets/blog-header.jpg);
   background-size: cover;
   background-position: 40% -10%;
   color: #fff;
