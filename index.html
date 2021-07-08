@@ -214,12 +214,12 @@
 const mobilebutton= document.querySelector('button.mobilebutton');
 const mobilemenu=document.querySelector('.mainmenu-mobile');
 mobilebutton.addEventListener('click',function(){
-if(mobilemenu.style.display === 'flex'){
-    mobilemenu.style.display='none';
+if(mobilemenu.style.display === 'none'){
+    mobilemenu.style.display='flex';
 
 }
 else{
-mobilemenu.style.display="flex";
+mobilemenu.style.display="none";
 }
 
 
