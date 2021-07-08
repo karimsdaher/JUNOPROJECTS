@@ -133,6 +133,7 @@ margin: 15px;
   background:transparent;
 cursor: pointer;
   border:none;
+  z-index:1000;
 
             }
 
@@ -143,6 +144,9 @@ cursor: pointer;
            padding:10px;
            position:absolute;
            background-color: $bgmain;
+           width:100%;
+           z-index: 999;
+           margin-top:50px;
          
          
 

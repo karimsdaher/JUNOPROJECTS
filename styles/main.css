@@ -1175,6 +1175,7 @@ li:hover {
     background: transparent;
     cursor: pointer;
     border: none;
+    z-index: 1000;
   }
 
   .mainmenu-mobile {
@@ -1188,6 +1189,9 @@ li:hover {
     padding: 10px;
     position: absolute;
     background-color: #171B0E;
+    width: 100%;
+    z-index: 999;
+    margin-top: 50px;
   }
   .mainmenu-mobile li.active::after {
     content: "";
