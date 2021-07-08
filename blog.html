@@ -13,13 +13,22 @@
    
     <div class="blogsection">
         <nav>
-            <ul clas="mainmenu">
-                <a href="index.html"><li class="menu-item">Home</li></a> 
-                 <a href=""><li class="menu-item">About</li></a>
-                <a href="blog.html"> <li class="menu-item active">Blog</li></a>
-                 <a href="contact.html"><li class="menu-item">Contact</li></a>
-             </ul>
-             </nav>
+            <div class="mobile-menuholder">
+                <button class="mobilebutton"><i class="fa fa-bars"></i></button>
+                <ul class="mainmenu-mobile">
+                    <a href="index.html"><li class="menu-item active">Home</li></a> 
+                     <a href=""><li class="menu-item">About</li></a>
+                    <a href="blog.html"> <li class="menu-item">Blog</li></a>
+                     <a href="contact.html"><li class="menu-item">Contact</li></a>
+                 </ul>  
+            </div>
+                        <ul class="mainmenu">
+                           <a href="index.html"><li class="menu-item active">Home</li></a> 
+                            <a href=""><li class="menu-item">About</li></a>
+                           <a href="blog.html"> <li class="menu-item">Blog</li></a>
+                            <a href="contact.html"><li class="menu-item">Contact</li></a>
+                        </ul>
+                         </nav>
              <div class="main-content">
                  <h1 class="titlem">
                    BLOG
@@ -180,4 +189,22 @@ Recent Posts
             <p class="copyright">Copyright 2019 © Juno College</p>
         </footer>
         
+        <script>
+            const mobilebutton= document.querySelector('button.mobilebutton');
+            const mobilemenu=document.querySelector('.mainmenu-mobile');
+            mobilebutton.addEventListener('click',function(){
+            if(mobilemenu.style.display === 'flex'){
+                mobilemenu.style.display='none';
+            
+            }
+            else{
+            mobilemenu.style.display="flex";
+            }
+            
+            
+            });
+            
+            
+            </script>
+            
         
