@@ -22,7 +22,7 @@ button {
 }
 
 .herosection {
-  background: url(/the-restaurant-mall-assets/home-header.jpg);
+  background: url(./the-restaurant-mall-assets/home-header.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -473,7 +473,7 @@ button.explore-space {
 }
 .spacer-box {
   padding: 250px;
-  background: url(/the-restaurant-mall-assets/banner.jpg);
+  background: url(./the-restaurant-mall-assets/banner.jpg);
   background-size: cover;
 }
 
@@ -485,7 +485,7 @@ footer {
 }
 
 .contactsection {
-  background: url(/the-restaurant-mall-assets/contact-header.jpg);
+  background: url(./the-restaurant-mall-assets/contact-header.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -719,7 +719,7 @@ h1.titlec {
   }
 }
 .blogsection {
-  background: url(/the-restaurant-mall-assets/blog-header.jpg);
+  background: url(./the-restaurant-mall-assets/blog-header.jpg);
   background-size: cover;
   background-position: 40% -10%;
   color: #fff;
@@ -1084,6 +1084,11 @@ ul.listi li {
     width: 75;
   }
 }
+@media (max-width: 500px) {
+  .main-menu {
+    display: none;
+  }
+}
 ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1140,5 +1145,67 @@ li:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
+  }
+}
+.mobile-menuholder {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .mainmenu {
+    display: none;
+  }
+
+  .mobile-menuholder {
+    width: 100%;
+    height: 100%;
+    min-height: 70px;
+    display: block;
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    background: #171B0E;
+  }
+
+  .mobilebutton {
+    float: right;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+  }
+
+  .mainmenu-mobile {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    padding: 10px;
+  }
+  .mainmenu-mobile li.active::after {
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    width: 10%;
+    height: 2px;
+    background-color: #ffd300;
+  }
+  .mainmenu-mobile a:hover, .mainmenu-mobile a:active, .mainmenu-mobile a:visited {
+    position: relative;
+    height: 100%;
+  }
+  .mainmenu-mobile a:hover::after, .mainmenu-mobile a:active::after, .mainmenu-mobile a:visited::after {
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    width: 10%;
+    height: 2px;
+    background-color: #ffd300;
   }
 }
