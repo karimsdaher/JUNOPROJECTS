@@ -123,6 +123,7 @@ li.active{
             display: block;
              transition: 0.3s ease-in;
             background: $bgmain;
+            position: relative;
         }
                   .mobilebutton{
             float:right;
@@ -140,6 +141,8 @@ cursor: pointer;
             flex-direction: column;
             transition: 0.3s ease-in;
            padding:10px;
+           position:absolute;
+           background-color: $bgmain;
          
          
 

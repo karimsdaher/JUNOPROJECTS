@@ -1164,6 +1164,7 @@ li:hover {
     -webkit-transition: 0.3s ease-in;
     transition: 0.3s ease-in;
     background: #171B0E;
+    position: relative;
   }
 
   .mobilebutton {
@@ -1185,6 +1186,8 @@ li:hover {
     -webkit-transition: 0.3s ease-in;
     transition: 0.3s ease-in;
     padding: 10px;
+    position: absolute;
+    background-color: #171B0E;
   }
   .mainmenu-mobile li.active::after {
     content: "";
